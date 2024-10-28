@@ -1,0 +1,11 @@
+
+use 'libs/tests/common.baabnq';
+
+lab Test::Fail;
+    jump fail;
+
+lab Test::Succ;
+    jump succ;
+
+
+
