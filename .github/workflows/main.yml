@@ -18,7 +18,7 @@ jobs:
       - name: Move Repo into subdir
         run: |
           mkdir $REPO_NAME
-          mv * $REPO_NAME
+          mv * $REPO_NAME 2> /dev/null || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
