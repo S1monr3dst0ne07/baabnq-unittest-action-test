@@ -30,8 +30,8 @@ jobs:
         run: |
           git clone https://github.com/baabnq/kit
           cd kit
-          chmod +x setupLinux
-          ./setupLinux
+          chmod +x setupLinux.sh
+          ./setupLinux.sh
           cd ..
           mv kit/* .
           rmdir kit/
